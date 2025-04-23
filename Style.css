@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+  direction: rtl;
+  text-align: right;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.schedule {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e6f0ff;
+  border-radius: 10px;
+}
+
+.schedule span {
+  font-weight: bold;
+  color: #1e3a8a;
+}
