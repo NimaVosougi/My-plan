@@ -1,68 +1,60 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>نقشه روز من</title>
-  <style>
-    body {
-      font-family: Tahoma, sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 20px;
-      color: #333;
-    }
-    .container {
-      max-width: 500px;
-      margin: auto;
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      text-align: center;
-      color: #555;
-    }
-    .task {
-      margin: 15px 0;
-    }
-    .time {
-      font-weight: bold;
-    }
-    textarea {
-      width: 100%;
-      padding: 10px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      resize: vertical;
-      margin-top: 5px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Plan</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="container">
-    <h1>برنامه روزانه من</h1>
-    <div class="task">
-      <div class="time">07:00</div>
-      <textarea placeholder="مثلاً: فقط آلارم، از تخت بلند نشو...">فقط آلارم، از تخت بلند نشو...</textarea>
-    </div>
-    <div class="task">
-      <div class="time">08:30</div>
-      <textarea placeholder="مثلاً: تماس سارا و احمد"></textarea>
-    </div>
-    <div class="task">
-      <div class="time">10:00</div>
-      <textarea placeholder="مثلاً: صبحانه و آماده‌شدن برای کار"></textarea>
-    </div>
-    <div class="task">
-      <div class="time">12:00</div>
-      <textarea placeholder="مثلاً: چک‌کردن پیام‌ها، خوردن میان‌وعده..."></textarea>
-    </div>
-    <div class="task">
-      <div class="time">23:30</div>
-      <textarea placeholder="مثلاً: گزارش شبانه برای خودت یا برای من"></textarea>
-    </div>
+    <header>
+      <h1>My Personalized Night Plan</h1>
+      <p>From 7:00 PM to 11:30 PM</p>
+    </header>
+
+    <section class="plan">
+      <div class="task">
+        <span class="time">7:00 PM</span>
+        <span class="desc">Alarm only — Stay in bed, feel the new night</span>
+      </div>
+      <div class="task">
+        <span class="time">7:10 PM</span>
+        <span class="desc">Call Sara & Ahmad — Voice connection time</span>
+      </div>
+      <div class="task">
+        <span class="time">7:30 PM</span>
+        <span class="desc">Light snack & hydration — Prepare for planning</span>
+      </div>
+      <div class="task">
+        <span class="time">8:00 PM</span>
+        <span class="desc">Write in planner + mind-dump notes</span>
+      </div>
+      <div class="task">
+        <span class="time">8:45 PM</span>
+        <span class="desc">Create tomorrow’s to-do list</span>
+      </div>
+      <div class="task">
+        <span class="time">9:30 PM</span>
+        <span class="desc">Wind down — meditation, gratitude journaling</span>
+      </div>
+      <div class="task">
+        <span class="time">10:15 PM</span>
+        <span class="desc">Prepare for sleep — Brush teeth, set alarm</span>
+      </div>
+      <div class="task">
+        <span class="time">10:30 PM</span>
+        <span class="desc">Lie in bed — No phone, quiet mind</span>
+      </div>
+      <div class="task">
+        <span class="time">11:30 PM</span>
+        <span class="desc">Sleep — Deep rest for a powerful tomorrow</span>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Designed by Nima & ChatGPT — Keep building the life you want.</p>
+    </footer>
   </div>
 </body>
 </html>
