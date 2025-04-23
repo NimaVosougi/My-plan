@@ -1,22 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>برنامه روزانه من</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نقشه روز من</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #555;
+    }
+    .task {
+      margin: 15px 0;
+    }
+    .time {
+      font-weight: bold;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      resize: vertical;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>نقشه‌ی روزانه من</h1>
-    <ul class="schedule">
-      <li><span>07:00</span> - بیدارباش (فقط آلارم، از تخت بلند نشو)</li>
-      <li><span>07:30</span> - تماس از سارا و احمد</li>
-      <li><span>08:00</span> - شروع روتین صبحگاهی</li>
-      <li><span>09:00</span> - چک کردن پیغام‌ها</li>
-      <li><span>10:00</span> - تماس با مشاوره‌ها</li>
-      <li><span>11:30</span> - پایان تایم کار هدف‌گذاری‌شده</li>
-    </ul>
+    <h1>برنامه روزانه من</h1>
+    <div class="task">
+      <div class="time">07:00</div>
+      <textarea placeholder="مثلاً: فقط آلارم، از تخت بلند نشو...">فقط آلارم، از تخت بلند نشو...</textarea>
+    </div>
+    <div class="task">
+      <div class="time">08:30</div>
+      <textarea placeholder="مثلاً: تماس سارا و احمد"></textarea>
+    </div>
+    <div class="task">
+      <div class="time">10:00</div>
+      <textarea placeholder="مثلاً: صبحانه و آماده‌شدن برای کار"></textarea>
+    </div>
+    <div class="task">
+      <div class="time">12:00</div>
+      <textarea placeholder="مثلاً: چک‌کردن پیام‌ها، خوردن میان‌وعده..."></textarea>
+    </div>
+    <div class="task">
+      <div class="time">23:30</div>
+      <textarea placeholder="مثلاً: گزارش شبانه برای خودت یا برای من"></textarea>
+    </div>
   </div>
 </body>
 </html>
